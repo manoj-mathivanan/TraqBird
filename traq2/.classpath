@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="libs"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="con" path="org.eclipse.datatools.connectivity.jdt.DRIVERLIBRARY/PostgreSQL JDBC Driver"/>
+	<classpathentry exported="true" kind="lib" path="libs/eclipselink-2.5.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/javax.persistence-2.1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/odata4j-0.7.0-bundle.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/odata4j-0.7.0-clientbundle.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/odata4j-0.7.0-core.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/odata4j-0.7.0-cxfbundle.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/odata4j-0.7.0-nojpabundle.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/odata4j-examples-0.7.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/odata4j-jersey-0.7.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/persistence-api-1.0.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

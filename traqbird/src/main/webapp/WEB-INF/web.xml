@@ -1,0 +1,43 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	version="3.0">
+	<display-name>Traq</display-name>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+
+	<servlet>
+		<servlet-name>loginapi</servlet-name>
+		<servlet-class>com.mrp.track.LoginAPI</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>registerapi</servlet-name>
+		<servlet-class>com.mrp.track.RegisterAPI</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>busapi</servlet-name>
+		<servlet-class>com.mrp.track.BusAPI</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>livetrack</servlet-name>
+		<servlet-class>com.mrp.track.TrackAPI</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>loginapi</servlet-name>
+		<url-pattern>/loginapi</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>registerapi</servlet-name>
+		<url-pattern>/registerapi/*</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>busapi</servlet-name>
+		<url-pattern>/busapi/*</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>livetrack</servlet-name>
+		<url-pattern>/livetrack/*</url-pattern>
+	</servlet-mapping>
+
+</web-app>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="traq" transaction-type="RESOURCE_LOCAL">
+	<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+		<class>traq.BusDetail</class>
+		<class>traq.BusDetailPK</class>
+		<class>traq.DriverDetail</class>
+		<class>traq.DriverDetailPK</class>
+		<class>traq.EmpDetail</class>
+		<class>traq.EmpDetailPK</class>
+		<class>traq.Mapper</class>
+		<class>traq.MapperPK</class>
+		<class>traq.Route</class>
+		<class>traq.RoutePK</class>
+		<class>traq.RouteDetail</class>
+		<properties>
+			<property name="javax.persistence.jdbc.url" value="jdbc:postgresql://ec2-54-204-35-207.compute-1.amazonaws.com:5432/dd6ju59jfmte9i?ssl=true&amp;sslfactory=org.postgresql.ssl.NonValidatingFactory"/>
+			<property name="javax.persistence.jdbc.user" value="uueitmrbwrmjxs"/>
+			<property name="javax.persistence.jdbc.password" value="JXMIqwB_UdWJD1-YSOnvzxXyCa"/>
+			<property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
+		</properties>
+	</persistence-unit>
+</persistence>

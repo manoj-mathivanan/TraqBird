@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="odata4j-0.7.0-bundle.jar"/>
+	<classpathentry exported="true" kind="lib" path="odata4j-0.7.0-clientbundle.jar"/>
+	<classpathentry exported="true" kind="lib" path="odata4j-0.7.0-core.jar"/>
+	<classpathentry exported="true" kind="lib" path="odata4j-0.7.0-cxfbundle.jar"/>
+	<classpathentry exported="true" kind="lib" path="odata4j-0.7.0-nojpabundle.jar"/>
+	<classpathentry exported="true" kind="lib" path="odata4j-examples-0.7.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="odata4j-jersey-0.7.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="eclipselink-2.5.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="javax.persistence-2.1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="persistence-api-1.0.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
